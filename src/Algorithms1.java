@@ -25,6 +25,10 @@ public class Algorithms1 {
 		Collections.fill(charList, 'R');
 		//System.out.println("List contains: ");
 		output(charList);
+		System.out.printf("The first element in the original array letters is %s%n", letters[0]);
+		System.out.printf("The second element in the original array letters is %s%n", letters[1]);
+		System.out.printf("The third element in the original array letters is %s%n", letters[2]);
+		
 		
 	}
 	
@@ -38,7 +42,7 @@ public class Algorithms1 {
 		}
 		
 		System.out.printf("%nList Max: %s ", Collections.max(outputList));
-		System.out.printf("%nList Min: %s ", Collections.min(outputList));
+		System.out.printf("%nList Min: %s%n ", Collections.min(outputList));
 		
 		
 	}
